@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Titulo:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="18sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Titulo del libro"
+        android:ems="10"
+        android:id="@+id/editLibro" />
+
+    <TextView
+        android:text="Autor: "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="18sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Autor del libro"
+        android:ems="10"
+        android:id="@+id/editAutor" />
+
+    <TextView
+        android:text="Editorial:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="18sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Editorial de la obra"
+        android:ems="10"
+        android:id="@+id/editObra" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="57dp">
+
+        <EditText
+            android:layout_width="134dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Name"
+            android:ems="10"
+            android:id="@+id/editText4"
+            android:layout_weight="1" />
+
+        <TextView
+            android:text="ISBN:"
+            android:layout_width="193dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="18sp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</LinearLayout>
